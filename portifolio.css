@@ -1,0 +1,75 @@
+
+.port-content{
+    background-image: url(images/portifolio_fundo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0px 4%;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.portfolio .port-content h2 {
+    text-shadow: -2.5px 3px 3px #000000d3;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #0c3944;
+    font-size: 40px;
+}
+
+.portfolio .port-content p {
+    text-align: center;
+    line-height: 25px;
+    max-width: 75rem;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.meio img{
+    width: 750px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 45px;
+    box-shadow: -16px 15px 15px rgba(0, 0, 0, 0.626);
+
+}
+
+.meio{
+    padding:5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+.portfolio ul{
+    margin-top: 10px;
+    text-transform: capitalize;
+    flex-direction: column;
+    padding: 15px;
+    font-size: x-large;
+    max-width: 60rem;
+}
+
+
+.portfolio li{
+    font-family: 'Lilita One', sans-serif;
+    padding:6px;
+}
+
+.portfolio li:hover{
+    transform: scale(1.03);
+    transition: 0.9s;
+    color: #003642;
+    
+}
+

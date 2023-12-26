@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 1400px){
+
+    .portfolio .meio ul{
+        max-width: 36rem;
+        font-size: 18px;
+    }
+    .meio img{
+        width: 600px;
+        height: 500px;
+    }
+    .port-content{
+        min-height: 90vh;
+    }
+    .portfolio .port-content ul,.home2 ul{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .meio{
+        flex-direction: column;
+        padding:1rem;
+    }
+}
+    
+@media screen and (max-width: 1000px){
+    .sobre .bloco,.sobre2 .bloco{
+        flex-direction: column;
+    }
+    .sobre2 .bloco .image{
+        justify-content: left;
+    }
+    .sobre2 .bloco .image img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 955px){
+    .interface .menu-desktop ul li a{
+        display: none;
+    }
+    .btn-abrir-menu ion-icon{
+        display: block;
+        cursor: pointer;
+    }  
+    .btn-fechar ion-icon{
+        cursor: pointer;
+    }
+    .logo h1{
+        margin-left: 0px;
+        font-size: 43px;
+    }
+    .home .bloco-home{
+        flex-direction: column-reverse;
+    }
+    .home .bloco-home .content{
+        flex: none;
+    }
+    .home .bloco-home{
+        background-image: url(images/home-mobile.jpg);
+    }
+    
+}
+
+@media screen and (max-width: 870px){
+    .portfolio .port-content h2 {
+        font-size: 30px;
+    }
+    .meio img{
+        width: 400px;
+        height: 300px;
+    }
+    .portfolio li{
+        padding: 4px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .hambiente ul,.left-side,.left-side2{
+        flex-direction: column;
+    }
+    .links-contato li,.left-side{
+        border: none;
+    }
+    .titulo-contato{
+        padding-top: 60px;
+    }
+    .hambiente ul{
+        margin-top: 50px;
+    }
+    .links-contato li{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 430px){
+    .port-content{
+        padding-top: 50px;
+    }
+
+    .meio img{
+        width: 340px;
+        height: 240px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .btn-abrir-menu ion-icon {
+        display: block;
+    }
+    .interface .menu-desktop ul {
+        display: none;
+    }
+    .menu-mobile nav ul{
+        text-align: right;
+    }
+    .menu-mobile nav ul li {
+        display: block;
+    }
+
+}
